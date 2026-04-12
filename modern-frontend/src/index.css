@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+:root {
+  --bg: #030712;
+  --card: rgba(17, 24, 39, 0.7);
+  --border: rgba(255, 255, 255, 0.1);
+  --primary: #22d3ee;
+  --secondary: #818cf8;
+  --accent: #f472b6;
+  --text: #f9fafb;
+  --text-muted: #9ca3af;
+  --glass: blur(12px) saturate(180%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background: var(--bg);
+  background: radial-gradient(circle at 50% 50%, #111827 0%, #030712 100%);
+  color: var(--text);
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glasscard Effect */
+.glass {
+  background: var(--card);
+  backdrop-filter: var(--glass);
+  -webkit-backdrop-filter: var(--glass);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+}
+
+/* The Omni-Orb */
+.orb-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orb {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 30% 30%, var(--primary), var(--secondary));
+  border-radius: 50%;
+  filter: blur(2px);
+  box-shadow: 
+    0 0 40px rgba(34, 211, 238, 0.4),
+    inset 0 0 20px rgba(255, 255, 255, 0.3);
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.orb.listening {
+  transform: scale(1.1);
+  box-shadow: 0 0 80px rgba(34, 211, 238, 0.6);
+  animation: pulse 2s infinite ease-in-out;
+}
+
+.orb.speaking {
+  animation: ripple 1.5s infinite ease-in-out;
+}
+
+.orb.thinking {
+  background: radial-gradient(circle at 30% 30%, #fbbf24, #f59e0b);
+  box-shadow: 0 0 60px rgba(251, 191, 36, 0.5);
+  animation: spin 3s linear infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1.1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1.1); }
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes ripple {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34, 211, 238, 0.4); }
+  70% { transform: scale(1.05); box-shadow: 0 0 0 40px rgba(34, 211, 238, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34, 211, 238, 0); }
+}
+
+/* Accessibility Modes */
+body.high-contrast {
+  --bg: #000000;
+  --card: #000000;
+  --border: #ffffff;
+  --primary: #ffff00;
+  --text: #ffffff;
+  --text-muted: #ffffff;
+}
+
+body.large-text {
+  font-size: 1.25rem;
+}
+
+/* Layout Utilities */
+.dashboard {
+  width: 100vw;
+  height: 100vh;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 30px;
+}
+
+.main-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 350px;
+}
+
+.transcript-area {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  scrollbar-width: none;
+}
+.transcript-area::-webkit-scrollbar { display: none; }
+
+.control-pill {
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.control-pill:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
