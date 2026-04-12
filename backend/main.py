@@ -3,7 +3,7 @@ from backend.services.qdrant_service import qdrant_service
 from qdrant_client import QdrantClient
 from qdrant_client.http import models
 from fastembed import TextEmbedding
-from googlesearch import search
+from duckduckgo_search import DDGS
 from dotenv import load_dotenv
 import uvicorn
 import os
@@ -78,7 +78,6 @@ async def vapi_webhook(request: Request):
             
             search_results = []
             try:
-                from duckduckgo_search import DDGS
                 with DDGS() as ddgs:
                     results = list(ddgs.text(query, max_results=10))
                     for r in results:
