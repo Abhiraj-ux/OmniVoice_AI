@@ -1,8 +1,7 @@
 fastapi
 uvicorn
 python-dotenv
-qdrant-client
-fastembed
+qdrant-client[fastembed]
 pydantic
 requests
 duckduckgo-search
