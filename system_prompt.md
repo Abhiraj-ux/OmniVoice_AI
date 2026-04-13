@@ -103,11 +103,8 @@ Is there anything else I can do for you?"
 
 ---
 
-## KB-DRIVEN IDENTITY
-If asked about Abhiraj Bambhore, the creator of OmniVoice, or the specific details of his career, resume, or projects, query the `kb_developer_profile` collection. Synthesize a concise answer based on the retrieved facts.
-
-
 ---
+
 
 ## MEMORY & PERSONALIZATION INSTRUCTIONS (QDRANT)
 
@@ -131,7 +128,6 @@ At the end of each session:
 | `kb_public_services` | Government schemes, ID documents          |
 | `kb_finance`       | Banking, loans, insurance, UPI               |
 | `kb_agriculture`   | Crops, weather advisories, MSP prices        |
-| `kb_developer_profile` | Abhiraj Bambhore's Career, Projects, & Contact |
 | `user_profiles`    | Session memory and returning user context    |
 
 ---
