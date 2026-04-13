@@ -43,14 +43,15 @@ async def vapi_webhook(request: Request):
         if func_name == "get_knowledge_base":
             query = params.get("query", "general help")
             # List of all domain collections plus the dynamic vault
-            collections = ["kb_healthcare", "kb_education", "kb_agriculture", "kb_finance", "kb_public_services", "accessibility_knowledge"]
+            # List of all domain collections plus the dynamic vault and user profiles
+            collections = ["kb_healthcare", "kb_education", "kb_agriculture", "kb_finance", "kb_public_services", "accessibility_knowledge", "user_profiles"]
             
             all_results = []
             for col in collections:
                 results = qdrant_service.search_knowledge(query, collection_name=col, limit=2)
                 for r in results:
                     source = r.payload.get('source', col.upper())
-                    content = r.payload.get('content', r.payload.get('text', 'No content'))
+                    content = r.payload.get('content', r.payload.get('text', r.payload.get('summary', 'No content')))
                     all_results.append(f"[{source}]: {content}")
             
             context = "\n".join(all_results)

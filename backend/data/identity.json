@@ -1,0 +1,74 @@
+{
+  "full_name": "Abhiraj Bambhore",
+  "preferred_name": "Abhiraj",
+  "title": "AI Engineer | Agentic AI Systems | Python | AWS Cloud",
+  "tagline": "Engineering smart systems with AI and cloud.",
+  "contact": {
+    "email": "abhirajbambhore@gmail.com",
+    "phone": "+91 9611941155",
+    "location": "Yelahanka, Bangalore / Reva University, Kattigenahalli",
+    "github": "github.com/Abhiraj-ux",
+    "linkedin": "linkedin.com/in/abhiraj-bambhore-a104aa298",
+    "portfolio": "abhirajbambhore.com"
+  },
+  "summary": "Founder & CEO of MirageX, a startup pioneering autonomous decentralized energy orchestration. Computer Science student at REVA University with a focus on Agentic AI, NLP, and distributed systems. Passionate about building high-impact, scalable solutions that merge AI with real-world infrastructure. Expert in workflow automation and intelligent system architecture.",
+  "core_philosophy": "Dedicated to building scalable, decentralized solutions for real-world orchestration. Expertise lies at the intersection of AWS cloud, agentic AI, NLP, and automation tools.",
+  "education": {
+    "degree": "B.Tech in Computer Science and Engineering",
+    "institution": "REVA University, Bengaluru",
+    "period": "Nov 2023 – Nov 2027",
+    "cgpa": "9.62 / 10.0"
+  },
+  "technical_arsenal": {
+    "languages": ["Python", "C++", "Java (OOPs)", "SQL"],
+    "frameworks": ["LangChain", "LangGraph", "Scikit-learn", "Pandas", "NumPy", "FastAPI", "XGBoost", "Pydantic"],
+    "systems": ["Agentic AI", "LLM Pipelines", "Docker", "AWS Cloud", "Informatica Cloud (ETL)"],
+    "tools": ["Antigravity", "n8n", "Jenkins", "Git", "GitHub", "VS Code", "Supabase", "MCP (Model Context Protocol)", "CrewAI"]
+  },
+  "featured_missions": [
+    {
+      "name": "MirageX: Energy Orchestration",
+      "role": "CEO & Founder @ REVA NEST",
+      "architecture": "Pioneering autonomous peer-to-peer energy orchestration via multi-agent systems. Integrates satellite data (Copernicus ESA), Federated Learning, and Microsoft AutoGen for decentralized, privacy-first energy trading with 100% local, open-source AI (Ollama/Llama 3.1). Targeted at reducing wasted solar energy by 20% and achieving 22.5% cluster efficiency gains.",
+      "stack": ["Multi-Agent Systems", "AutoGen", "Ollama", "FastAPI", "Energy Tech", "Sentinal-2", "IEEE 33-bus grid model"]
+    },
+    {
+      "name": "Internship Recommendation Engine",
+      "stats": "87% Match Accuracy",
+      "details": "Intelligent engine analyzing 10,000+ listings across 20+ cities. Implemented cosine similarity matching based on 15+ skill parameters, connecting 250+ students in pilot phase. Automated Jenkins CI/CD pipeline for daily updates.",
+      "stack": ["Python", "Scikit-learn", "Pandas", "Jenkins"]
+    },
+    {
+      "name": "Smart Crop Advisory (SIH 2025)",
+      "status": "Selected at College Level",
+      "details": "Full-stack platform serving 25+ crops across 15 states. Integrated multilingual voice interface (89% accuracy) and real-time market price aggregation from 50+ mandis.",
+      "stack": ["Hugging Face", "MongoDB", "Python", "Voice AI", "Fastbots LLM"]
+    },
+    {
+      "name": "NeuroVoice AI",
+      "stats": "95% Accuracy",
+      "details": "Multimodal diagnostic platform for Parkinson's screening fusion vocal biomarkers and motor analysis. Extracts MDVP biomarkers (Jitter, Shimmer, HNR) via Parselmouth/Praat to detect micro-tremors.",
+      "stack": ["React 19", "FastAPI", "XGBoost", "Parselmouth", "AI4Bharat", "Recharts"]
+    },
+    {
+      "name": "AI Email Reply Agent",
+      "status": "Automation Done",
+      "details": "Autonomous Gmail assistant using n8n and Google Gemini. Automatically fetches, analyzes, and drafts context-aware replies to incoming messages in real-time.",
+      "stack": ["n8n", "Google Gemini", "Gmail API", "Automation"]
+    },
+    {
+      "name": "Smart Feedback Workflow",
+      "status": "Complete System",
+      "details": "Enterprise-grade feedback processing system categorizing form submissions (complaints, compliments, features) and routing them to Slack/Gmail using AI agents.",
+      "stack": ["n8n", "AI Agents", "Slack API", "Workflow Engineering"]
+    }
+  ],
+  "certifications": [
+    "Agentic AI: Build AI Agents with LangGraph, CrewAI & MCP (2026)",
+    "AWS Cloud Practitioner Training Certification (2026)",
+    "DevOps Certification – Mevi Technology",
+    "JPMorganChase Software Engineering Job Simulation (2026)"
+  ],
+  "languages": ["English", "Kannada", "Hindi", "Marathi"],
+  "additional_notes": "Abhiraj is the creator of OmniVoice. The agent must provide concise, targeted answers about his profile—only answering exactly what is asked. Keep all three sources of data (Resume, LinkedIn, Portfolio) integrated. Do not delete unique technical details even if they don't appear in every source."
+}
