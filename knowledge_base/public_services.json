@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ps_001",
+    "domain": "public_services",
+    "title": "Aadhaar — Enrollment, Update, and Common Issues",
+    "content": "Aadhaar is a 12-digit unique identity number issued by UIDAI. It is not mandatory for most services but is required for many government benefits. To enroll: visit nearest Aadhaar Seva Kendra (find at appointments.uidai.gov.in). Bring proof of identity (PAN, passport, voter ID) and proof of address. Biometrics (fingerprints, iris scan, photo) are collected. Card is mailed to registered address or can be downloaded as e-Aadhaar free from uidai.gov.in. To update name, address, or mobile: visit Aadhaar center or update online at myaadhaar.uidai.gov.in. Updating address online costs ₹50. UIDAI helpline: 1947 (toll-free, 24/7). Aadhaar lock/unlock feature: use mAadhaar app or 1947 to protect biometric data.",
+    "tags": ["Aadhaar", "UIDAI", "identity", "enrollment", "update", "e-Aadhaar", "biometric"],
+    "language": "en",
+    "source": "UIDAI Official Guidelines 2024"
+  },
+  {
+    "id": "ps_002",
+    "domain": "public_services",
+    "title": "Ration Card — How to Get and Use Your Card",
+    "content": "Ration card enables families to buy subsidized food grains under NFSA (National Food Security Act). Three types: AAY (Antyodaya Anna Yojana) — poorest of poor, 35 kg grain per month; PHH (Priority Household) — 5 kg per person per month; NPHH — non-priority. PM Garib Kalyan Anna Yojana: 5 kg free grain per person per month extended through 2028. How to apply: visit your state's Food Department office or Common Service Center (CSC) with Aadhaar, income proof, residence proof, family photo. One Nation One Ration Card (ONORC): you can use your ration card at any ration shop across India — helpful for migrant workers. To find your nearest ration shop: call 1967 or visit nfsa.gov.in.",
+    "tags": ["ration card", "NFSA", "food security", "PDS", "grain", "AAY", "ONORC", "migrant"],
+    "language": "en",
+    "source": "Ministry of Consumer Affairs — NFSA Scheme 2024"
+  },
+  {
+    "id": "ps_003",
+    "domain": "public_services",
+    "title": "Voter ID (EPIC) — Registration and Correction",
+    "content": "Every Indian citizen aged 18 or above has the right to vote and should be registered in the electoral roll. To register: fill Form 6 online at voters.eci.gov.in or visit your nearest BLO (Booth Level Officer) or Election Commission office. Documents needed: proof of age (birth certificate, school certificate), proof of address (Aadhaar, utility bill), passport-size photo. Check your name in voter list: visit electoralsearch.eci.gov.in. Corrections to name, photo, or address: fill Form 8 online. New Voter Helpline: 1950 (toll-free). Special voter registration drives happen before every election — watch for announcements. Voter ID card is also a valid government ID for other services.",
+    "tags": ["voter ID", "EPIC", "election", "voter list", "Form 6", "ECI", "democratic rights"],
+    "language": "en",
+    "source": "Election Commission of India 2024"
+  },
+  {
+    "id": "ps_004",
+    "domain": "public_services",
+    "title": "PM Awas Yojana — Affordable Housing Scheme",
+    "content": "Pradhan Mantri Awas Yojana (PMAY) aims to provide affordable housing to all by 2024. Two components: PMAY-Urban (for city residents) and PMAY-Gramin (for rural residents). Gramin: free housing for BPL families with 20 sq mt house — ₹1.2 lakh in plains, ₹1.3 lakh in hills/NE. Urban: interest subsidy on home loans under CLSS (Credit Linked Subsidy Scheme). EWS (income below ₹3 lakh): ₹2.5 lakh subsidy. LIG (₹3–6 lakh): ₹1.67 lakh subsidy. Eligibility: must not own a pucca house anywhere in India, must be a family. Apply: through CSC, bank, or pmaymis.gov.in for Urban. Beneficiary selection for Gramin is from SECC 2011 database. Track application: pmayg.nic.in or call 1800-11-6446.",
+    "tags": ["PMAY", "housing", "affordable home", "BPL", "rural housing", "urban housing", "subsidy"],
+    "language": "en",
+    "source": "Ministry of Housing — PMAY Scheme 2024"
+  },
+  {
+    "id": "ps_005",
+    "domain": "public_services",
+    "title": "MGNREGA — 100 Days Work Guarantee",
+    "content": "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) guarantees 100 days of paid work per year to any rural household willing to do unskilled manual work. Wage rate: ₹220-374 per day depending on the state. How to get a Job Card: visit the Gram Panchayat and fill an application. Job card should be issued within 15 days — it is free. Work should be provided within 15 days of applying — if not, unemployment allowance must be paid. Works include: road construction, pond digging, tree planting, soil conservation. Payment is directly into bank or post office account. To check work availability or wages: nmms.gov.in or call toll-free 1800-345-22-44.",
+    "tags": ["MGNREGA", "MNREGA", "job card", "rural employment", "100 days work", "wages", "Gram Panchayat"],
+    "language": "en",
+    "source": "Ministry of Rural Development — MGNREGA 2024"
+  },
+  {
+    "id": "ps_006",
+    "domain": "public_services",
+    "title": "RTI — Right to Information How-To Guide",
+    "content": "The Right to Information (RTI) Act 2005 gives every Indian citizen the right to get information from any government office within 30 days. How to file RTI: write a simple application addressed to the Public Information Officer (PIO) of the relevant office. Include your name, address, and the specific information you want. Pay ₹10 application fee (BPL cardholders are exempt — attach photocopy of ration card). Submit by hand, post, or online at rtionline.gov.in for central government departments. If information is denied or not received in 30 days: file First Appeal to the Appellate Authority. If still unresolved: approach the Central Information Commission (CIC). RTI is a powerful tool to check status of ration cards, pensions, housing applications, road works, and more.",
+    "tags": ["RTI", "Right to Information", "government transparency", "application", "PIO", "CIC", "appeal"],
+    "language": "en",
+    "source": "Department of Personnel & Training — RTI Act Guidelines 2024"
+  },
+  {
+    "id": "ps_007",
+    "domain": "public_services",
+    "title": "Old Age & Widow Pension — NSAP Schemes",
+    "content": "National Social Assistance Programme (NSAP) provides pensions to elderly, widows, and disabled persons below the poverty line. Key schemes: IGNOAPS (Indira Gandhi National Old Age Pension Scheme) — for BPL persons aged 60+. Pension: ₹200/month (60-79 years), ₹500/month (80+ years). IGNWPS (Widow Pension) — for BPL widows aged 40-79 years. ₹300/month. IGNDPS (Disability Pension) — for 80%+ disabled persons. ₹300/month. To apply: visit your Gram Panchayat or Urban Local Body. Documents: Aadhaar, BPL/ration card, age proof, bank account. State governments often add additional top-up amounts. Track payment: nsap.nic.in or contact your local Block Development Officer (BDO).",
+    "tags": ["pension", "old age", "widow", "NSAP", "IGNOAPS", "disability", "BPL", "elderly"],
+    "language": "en",
+    "source": "Ministry of Rural Development — NSAP Scheme 2024"
+  },
+  {
+    "id": "ps_008",
+    "domain": "public_services",
+    "title": "Common Service Centers (CSC) — One Stop Government Services",
+    "content": "Common Service Centers (CSC) are government-run digital service centers available across India, especially in rural areas. Over 5 lakh CSCs operational nationwide. Services available: Aadhaar enrollment and update, PAN card application, voter registration, ration card application, birth and death certificate, income and caste certificate, utility bill payments, banking (BC services), PMAY and pension applications, NEET/JEE form filling, Passport application, insurance enrollment. Charges are nominal (government-fixed). To find nearest CSC: visit locator.csccloud.in or ask at Gram Panchayat. CSC operators (called VLEs — Village Level Entrepreneurs) are trained to assist people with forms and digital processes.",
+    "tags": ["CSC", "Common Service Center", "government services", "rural", "digital services", "VLE", "certificates"],
+    "language": "en",
+    "source": "CSC e-Governance Services India 2024"
+  }
+]

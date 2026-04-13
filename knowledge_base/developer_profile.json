@@ -1,0 +1,38 @@
+[
+  {
+    "id": "dp_001",
+    "domain": "personal_profile",
+    "title": "Abhiraj Bambhore — AI Engineer & Founder of MirageX",
+    "content": "Abhiraj Bambhore is an AI Engineer and Computer Science student at REVA University (Nov 2023 – Nov 2027) with a CGPA of 9.62. He is the Founder & CEO of MirageX, a startup pioneering autonomous decentralized energy orchestration. His expertise lies in Agentic AI, NLP, and distributed systems, with a focus on building high-impact, scalable solutions using Python, AWS Cloud, and LangGraph. LinkedIn: linkedin.com/in/abhiraj-bambhore-a104aa298 | Portfolio: abhirajbambhore.com | Email: abhirajbambhore@gmail.com | Phone: +91 9611941155.",
+    "tags": ["Abhiraj Bambhore", "MirageX", "AI Engineer", "CEO", "LinkedIn", "Portfolio", "Contact"],
+    "language": "en",
+    "source": "Professional Identity Vault"
+  },
+  {
+    "id": "dp_002",
+    "domain": "personal_profile",
+    "title": "Abhiraj Bambhore — Technical Skills & Arsenal",
+    "content": "Technical Stack: Python, C++, Java, SQL. Frameworks: LangChain, LangGraph, Scikit-learn, FastAPI, XGBoost, Pydantic, Pandas, NumPy. Systems: Agentic AI, LLM Pipelines, Docker, AWS Cloud, Informatica Cloud (ETL). Tools: Antigravity, n8n, Jenkins, Git, GitHub, VS Code, Supabase, MCP (Model Context Protocol), CrewAI.",
+    "tags": ["Python", "AWS", "Agentic AI", "LangGraph", "FastAPI", "Docker", "Skills"],
+    "language": "en",
+    "source": "Professional Identity Vault"
+  },
+  {
+    "id": "dp_003",
+    "domain": "personal_profile",
+    "title": "Abhiraj Bambhore — Major Projects & Missions",
+    "content": "MirageX: Autonomous peer-to-peer energy orchestration via multi-agent systems (AutoGen, Ollama, Sentinel-2). NeuroVoice AI: Parkinson's screening via vocal biomarkers (React 19, FastAPI, XGBoost). Internship Recommendation Engine: 87% match accuracy for 10,000+ listings. SIH 2025: Smart Crop Advisory for 25+ crops with multilingual voice AI.",
+    "tags": ["MirageX", "NeuroVoice AI", "Internship Engine", "SIH 2025", "Projects"],
+    "language": "en",
+    "source": "Professional Identity Vault"
+  },
+  {
+    "id": "dp_004",
+    "domain": "personal_profile",
+    "title": "Abhiraj Bambhore — Certifications & Education",
+    "content": "Education: B.Tech CSE at REVA University (2023–2027), CGPA 9.62. Certifications: Agentic AI (Building AI Agents with LangGraph/CrewAI/MCP - 2026), AWS Cloud Practitioner (2026), DevOps Certification (Mevi Technology), JPMorganChase Software Engineering Job Simulation (2026).",
+    "tags": ["REVA University", "Certifications", "AWS", "Agentic AI", "Education"],
+    "language": "en",
+    "source": "Professional Identity Vault"
+  }
+]

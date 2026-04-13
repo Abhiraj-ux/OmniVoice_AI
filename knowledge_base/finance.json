@@ -1,0 +1,65 @@
+[
+  {
+    "id": "fin_001",
+    "domain": "finance",
+    "title": "Jan Dhan Account — Zero Balance Bank Account",
+    "content": "Pradhan Mantri Jan Dhan Yojana (PMJDY) provides every Indian a free bank account with zero minimum balance. Benefits: free RuPay debit card, accident insurance of ₹2 lakh, overdraft facility of ₹10,000 (after 6 months of satisfactory operation), life insurance cover of ₹30,000. How to open: visit any public sector bank (SBI, PNB, Bank of Baroda etc.) or India Post with Aadhaar card and one more ID/address proof. No documents? You can open a 'Small Account' with just a photo and self-certification. All Direct Benefit Transfer (DBT) government payments (scholarships, pensions, MGNREGA wages) are credited directly to this account. Call 1800-11-0001 (toll-free) for PMJDY queries.",
+    "tags": ["Jan Dhan", "bank account", "zero balance", "RuPay", "DBT", "financial inclusion", "PMJDY"],
+    "language": "en",
+    "source": "Ministry of Finance — PMJDY Scheme 2024"
+  },
+  {
+    "id": "fin_002",
+    "domain": "finance",
+    "title": "UPI & Digital Payments — Beginner Guide",
+    "content": "UPI (Unified Payments Interface) lets you send and receive money instantly using just a mobile number or UPI ID, 24/7 including holidays. Apps: PhonePe, Google Pay (GPay), Paytm, BHIM (government app — most basic, safest for beginners). How to set up: download BHIM app, link your bank account, create a 4-6 digit UPI PIN using your debit card last 6 digits and expiry date. To pay: enter amount and UPI ID or scan QR code. To receive: share your UPI ID. Daily limit: ₹1 lakh per transaction for most apps. NEVER share your UPI PIN or OTP with anyone — no bank or government official will ever ask for it. If money is deducted but transaction failed: report to your bank within 3 days for refund.",
+    "tags": ["UPI", "digital payment", "BHIM", "PhonePe", "Google Pay", "mobile banking", "QR code", "fraud"],
+    "language": "en",
+    "source": "NPCI — UPI Consumer Guide 2024"
+  },
+  {
+    "id": "fin_003",
+    "domain": "finance",
+    "title": "Mudra Loan — Small Business Loan Without Collateral",
+    "content": "Pradhan Mantri MUDRA Yojana (PMMY) provides collateral-free loans for small businesses, self-employment, and micro-enterprises. Three loan categories: Shishu — up to ₹50,000 (for very new businesses). Kishore — ₹50,001 to ₹5 lakh (existing businesses needing expansion). Tarun — ₹5 lakh to ₹10 lakh (well-established micro units). Who can apply: individuals, proprietorships, partnerships, SHGs, JLGs in manufacturing, trading, services, agriculture-allied activities. Documents: Aadhaar, PAN, business address proof, quotation for equipment (if applicable). Apply at any bank, NBFC, or MFI, or online at mudra.org.in. Interest rate: market rate, varies by bank. No guarantee/collateral needed for Shishu and Kishore.",
+    "tags": ["Mudra loan", "small business", "micro enterprise", "Shishu", "Kishore", "Tarun", "collateral free"],
+    "language": "en",
+    "source": "MUDRA — PM MUDRA Yojana 2024"
+  },
+  {
+    "id": "fin_004",
+    "domain": "finance",
+    "title": "Financial Fraud — Prevention and Reporting",
+    "content": "Common financial frauds: 1. Fake KYC calls — scammer pretends to be a bank employee and asks for Aadhaar OTP to update KYC. Never share OTPs. 2. Lottery/prize fraud — message says you won ₹50 lakh, asks for processing fee. Ignore and block. 3. UPI fraud — scammer sends money request framed as 'receiving' money. Never enter PIN to receive money. 4. Loan app fraud — illegal apps offer instant loans, then harass with high interest and threats. Use only RBI-registered lenders. What to do if scammed: call 1930 (National Cyber Crime Helpline) immediately. File complaint at cybercrime.gov.in. Block your card: call bank immediately. Freeze account if needed: visit branch. For UPI issues: report on the payment app and also to NPCI at npci.org.in.",
+    "tags": ["fraud", "scam", "OTP", "cyber crime", "1930", "UPI fraud", "fake KYC", "phishing"],
+    "language": "en",
+    "source": "RBI & MHA — Cyber Crime Awareness 2024"
+  },
+  {
+    "id": "fin_005",
+    "domain": "finance",
+    "title": "Pradhan Mantri Suraksha & Jeevan Jyoti — Insurance Schemes",
+    "content": "Two ultra-affordable government-backed insurance schemes: PMSBY (Pradhan Mantri Suraksha Bima Yojana) — Accident insurance. Premium: just ₹20 per year. Coverage: ₹2 lakh for accidental death or full disability, ₹1 lakh for partial disability. Age: 18-70 years. Auto-deducted from bank account every May. PMJJBY (Pradhan Mantri Jeevan Jyoti Bima Yojana) — Life insurance. Premium: ₹436 per year. Coverage: ₹2 lakh on death from any cause. Age: 18-50 years. Both require: Jan Dhan or savings bank account, Aadhaar, and enroll at any bank branch or CSC. To claim: nominee should visit the bank branch with death certificate and claim form within 30 days.",
+    "tags": ["insurance", "PMSBY", "PMJJBY", "life insurance", "accident insurance", "affordable", "Jan Dhan"],
+    "language": "en",
+    "source": "Ministry of Finance — Jan Suraksha Schemes 2024"
+  },
+  {
+    "id": "fin_006",
+    "domain": "finance",
+    "title": "SHG & Microfinance — Credit for Women",
+    "content": "Self-Help Groups (SHGs) are small groups of 10-15 women who save together and support each other financially. Benefits: members save small amounts weekly or monthly, group can take loans from bank at low interest after 6 months (SHG-Bank Linkage), group also receives training in financial literacy and livelihood. Under NRLM (National Rural Livelihood Mission) SHGs get: ₹10,000–15,000 revolving fund, ₹1-2 lakh bank loan at 7% interest (with interest subvention). How to join or form an SHG: contact your nearest DRDA (District Rural Development Agency), Anganwadi worker, or ASHA worker. State programs: Jeevika (Bihar), SERP (AP), Kudumbashree (Kerala) — each has additional state benefits. SHG activities: tailoring, food processing, goat farming, handicrafts.",
+    "tags": ["SHG", "self help group", "microfinance", "women empowerment", "NRLM", "rural credit", "Kudumbashree"],
+    "language": "en",
+    "source": "Ministry of Rural Development — NRLM Guidelines 2024"
+  },
+  {
+    "id": "fin_007",
+    "domain": "finance",
+    "title": "Income Tax — Basic Filing for First-Timers",
+    "content": "Income tax is paid on annual earnings above the basic exemption limit. For FY 2024-25: No tax on income up to ₹3 lakh (new regime) or ₹2.5 lakh (old regime). Rebate under 87A: no tax effectively up to ₹7 lakh (new regime). If your employer deducts TDS, you may be eligible for refund — filing ITR is necessary to claim it. How to file: visit incometax.gov.in, register with PAN, choose ITR-1 (for salaried/pensioners with income below ₹50 lakh). Deadline: July 31 each year for non-audit cases. Form 26AS (tax credit statement) shows all TDS deducted — check before filing. Free filing assistance at Aaykar Seva Kendras or CAs empanelled under government schemes. PAN is required for salary above ₹2.5 lakh, bank FDs, property purchases.",
+    "tags": ["income tax", "ITR", "PAN", "tax filing", "TDS", "refund", "Form 26AS", "salaried"],
+    "language": "en",
+    "source": "Income Tax Department India 2024"
+  }
+]

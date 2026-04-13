@@ -1,0 +1,74 @@
+[
+  {
+    "id": "agri_001",
+    "domain": "agriculture",
+    "title": "PM-KISAN — ₹6000 Annual Income Support for Farmers",
+    "content": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) provides ₹6,000 per year (in 3 installments of ₹2,000 each) directly to bank accounts of eligible farmer families. Eligibility: all small and marginal farmers with landholding up to 2 hectares. Exclusions: income tax payers, institutional landholders, government employees (except Multi Tasking Staff/Class IV). How to register: visit pmkisan.gov.in or nearest Common Service Center (CSC). Documents: Aadhaar, bank account, land records (Khasra-Khatauni). To check installment status: visit pmkisan.gov.in > Beneficiary Status > Enter Aadhaar/mobile. Helpline: PM-KISAN helpdesk 155261 or 011-24300606. State governments often add additional Kisan Nidhi — check with local agriculture officer.",
+    "tags": ["PM-KISAN", "farmer income", "subsidy", "direct benefit", "small farmer", "agriculture scheme"],
+    "language": "en",
+    "source": "Ministry of Agriculture — PM-KISAN Scheme 2024"
+  },
+  {
+    "id": "agri_002",
+    "domain": "agriculture",
+    "title": "Crop Insurance — PMFBY Scheme",
+    "content": "Pradhan Mantri Fasal Bima Yojana (PMFBY) provides affordable crop insurance to protect farmers from crop losses due to natural calamities, pests, and diseases. Premium rates: Kharif crops — 2% of sum insured. Rabi crops — 1.5%. Commercial/horticultural crops — 5%. Balance premium is paid by Central and State Governments. Coverage: pre-sowing to post-harvest losses including cyclone, hailstorm, landslide, drought, flood, pest. How to enroll: through your bank (if you have a crop loan, enrollment is compulsory), or visit CSC, insurance company agent, or apply online at pmfby.gov.in. Deadline: 2 weeks before crop sowing season. Claim process: notify within 72 hours of crop damage by calling 14447 or through AIDE app. Sum insured is scale of finance per district for each crop.",
+    "tags": ["crop insurance", "PMFBY", "fasal bima", "kharif", "rabi", "flood", "drought", "farmer protection"],
+    "language": "en",
+    "source": "Ministry of Agriculture — PMFBY Scheme 2024"
+  },
+  {
+    "id": "agri_003",
+    "domain": "agriculture",
+    "title": "Soil Health Card — Know Your Soil Nutrients",
+    "content": "Soil Health Card (SHC) scheme provides every farmer a card with soil nutrient status and crop-wise fertilizer recommendations. The card tests for 12 parameters: NPK (Nitrogen, Phosphorus, Potassium), pH, electrical conductivity, organic carbon, and micro-nutrients (Sulfur, Zinc, Boron, Iron, Manganese, Copper). How to get: visit nearest Krishi Vigyan Kendra (KVK), agriculture department, or soil testing laboratory. It is free. Using the SHC reduces fertilizer cost by 8-10% and increases yield by 5-6% by avoiding over-fertilization. The card is updated every 2 years. Check online at soilhealth.dac.gov.in. SHC also shows which crops are best suited to your soil type.",
+    "tags": ["soil health card", "NPK", "fertilizer", "soil test", "KVK", "nutrients", "crop recommendation"],
+    "language": "en",
+    "source": "Ministry of Agriculture — Soil Health Card Scheme 2024"
+  },
+  {
+    "id": "agri_004",
+    "domain": "agriculture",
+    "title": "MSP — Minimum Support Price Explained",
+    "content": "Minimum Support Price (MSP) is the price the government guarantees to buy certain crops from farmers, preventing distress sales. For Kharif 2024-25: Paddy — ₹2,300/quintal, Maize — ₹2,225/quintal, Cotton (long staple) — ₹7,521/quintal, Groundnut — ₹6,783/quintal, Soybean — ₹4,892/quintal. For Rabi 2024-25: Wheat — ₹2,275/quintal, Mustard — ₹5,950/quintal, Gram — ₹5,440/quintal. How to sell at MSP: register on eMandi or visit your nearest APMC mandi or government procurement center (managed by FCI, NAFED, state agencies). Registration through PM-KISAN portal or state agriculture department. Mandi prices can vary — check daily on Agmarknet portal (agmarknet.gov.in) or call Kisan Call Center 1800-180-1551.",
+    "tags": ["MSP", "minimum support price", "mandi", "wheat", "paddy", "cotton", "procurement", "APMC"],
+    "language": "en",
+    "source": "CACP — MSP Rabi Kharif 2024-25"
+  },
+  {
+    "id": "agri_005",
+    "domain": "agriculture",
+    "title": "Weather Advisory for Farmers — Meghdoot & Damini",
+    "content": "Meghdoot is a free mobile app developed by ICAR and IMD providing 5-day weather-based agromet advisories tailored to district and block level. Available in 12 languages. Download from Google Play or App Store. It provides crop-specific advice on irrigation, spraying, harvesting based on upcoming weather. Damini app (Lightning Alert) warns about lightning — farmers should take shelter 40 minutes before predicted lightning strike. IMD Agromet Division provides SMS-based advisories in local languages — register your mobile at your nearest KVK. For weather forecasts: mausam.imd.gov.in or call 1800-180-1717. Kisan SMS Portal: over 5 crore farmers registered to receive weather and crop advisories.",
+    "tags": ["weather", "Meghdoot", "Damini", "IMD", "agromet", "lightning", "forecast", "advisory"],
+    "language": "en",
+    "source": "ICAR & IMD — Kisan Advisory Services 2024"
+  },
+  {
+    "id": "agri_006",
+    "domain": "agriculture",
+    "title": "e-NAM — National Agriculture Market for Better Prices",
+    "content": "e-NAM (National Agriculture Market) is an online trading platform connecting farmers, traders, and buyers across India for transparent price discovery. Available at enam.gov.in. Farmers can sell produce to buyers from other states, getting better prices than local mandi. How to register: visit your nearest APMC mandi that is integrated with e-NAM. Over 1,361 mandis in 23 states integrated. Documents: Aadhaar, bank account, farmer ID. Commodity assaying (quality testing) done at mandi before auction. Payment directly to farmer's bank account within 24 hours of sale. Crops covered: over 200 commodities including cereals, pulses, oilseeds, vegetables, spices, cotton. Helpline: 1800-270-0224.",
+    "tags": ["e-NAM", "mandi", "online trading", "price discovery", "APMC", "commodity", "fair price"],
+    "language": "en",
+    "source": "Small Farmers Agribusiness Consortium — e-NAM 2024"
+  },
+  {
+    "id": "agri_007",
+    "domain": "agriculture",
+    "title": "Kisan Credit Card — Agricultural Credit at Low Interest",
+    "content": "Kisan Credit Card (KCC) provides farmers short-term credit for crop cultivation, post-harvest expenses, and maintenance. Key features: credit limit based on land holding and crop pattern — typically ₹3,000 to ₹3 lakh. Interest rate: 7% per annum (4% effective with interest subvention). Repayment: after harvest, usually 12 months. Works like a revolving credit — you can draw and repay multiple times. Coverage: crop loans, allied activities (animal husbandry, fisheries), personal accident insurance (₹50,000 included free). How to apply: visit any bank (SBI, cooperative bank, RRB) or online on bank's website. Documents: land records, Aadhaar, passport photo, address proof. Credit limit increased every year by 10% for timely repayment. ATM-enabled RuPay card issued for easy cash withdrawal.",
+    "tags": ["Kisan Credit Card", "KCC", "agriculture loan", "crop credit", "low interest", "RuPay", "subsidy"],
+    "language": "en",
+    "source": "NABARD — Kisan Credit Card Scheme 2024"
+  },
+  {
+    "id": "agri_008",
+    "domain": "agriculture",
+    "title": "Organic Farming — Paramparagat Krishi Vikas Yojana",
+    "content": "Paramparagat Krishi Vikas Yojana (PKVY) promotes organic farming with government support. Under this scheme, clusters of 50 farmers are formed covering 50 acres. Financial support: ₹50,000 per hectare over 3 years for organic inputs, certification, and value addition. Certification: obtained through Participatory Guarantee System (PGS-India) — farmer groups certify each other. Organic produce can fetch 15-50% premium price. Steps to start organic: stop chemical inputs 2 years prior, use compost (vermicompost or FYM), neem-based pesticides, green manures. APEDA provides export certification for organic produce. To join: contact your state agriculture department or Krishi Vigyan Kendra. Jaivik Kheti portal (jaivikkheti.in) connects organic farmers to buyers.",
+    "tags": ["organic farming", "PKVY", "compost", "vermicompost", "PGS certification", "organic price", "sustainable"],
+    "language": "en",
+    "source": "Ministry of Agriculture — PKVY Scheme 2024"
+  }
+]

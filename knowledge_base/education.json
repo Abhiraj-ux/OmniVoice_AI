@@ -1,0 +1,65 @@
+[
+  {
+    "id": "edu_001",
+    "domain": "education",
+    "title": "National Scholarship Portal — How to Apply",
+    "content": "The National Scholarship Portal (NSP) at scholarships.gov.in is India's single-window platform for all central and state government scholarships. Step 1: Register with your mobile number and Aadhaar. Step 2: Fill in personal, academic, and bank details. Step 3: Upload documents — marksheet, income certificate, caste certificate (if applicable), bank passbook. Step 4: Submit before deadline — usually September to November. Key scholarships: Pre-Matric Scholarships (Class 1-10), Post-Matric Scholarships (Class 11 to PhD), Merit-cum-Means Scholarship. Families with income below ₹2.5 lakh per year are eligible for most schemes. Helpline: 0120-6619540.",
+    "tags": ["scholarship", "NSP", "government", "education", "financial aid", "Aadhaar", "apply online"],
+    "language": "en",
+    "source": "National Scholarship Portal — Official Guidelines 2024"
+  },
+  {
+    "id": "edu_002",
+    "domain": "education",
+    "title": "Pradhan Mantri Vidya Lakshmi — Education Loans",
+    "content": "Vidya Lakshmi Portal (vidyalakshmi.co.in) is a government platform to apply for education loans from multiple banks in one place. Loan coverage: tuition fees, hostel, books, equipment, travel for study abroad. Loans up to ₹4 lakh: no collateral needed. Loans ₹4–7.5 lakh: third-party guarantee. Above ₹7.5 lakh: collateral required. Interest subsidy under Central Sector Interest Subsidy (CSIS) for families with income below ₹4.5 lakh per year — no interest during moratorium period. Repayment starts after course + 1 year or 6 months after job, whichever is earlier. Documents: admission letter, fee structure, income proof, Aadhaar, academic marksheets.",
+    "tags": ["education loan", "Vidya Lakshmi", "bank loan", "scholarship", "interest subsidy", "collateral"],
+    "language": "en",
+    "source": "Ministry of Finance — Vidya Lakshmi Portal 2024"
+  },
+  {
+    "id": "edu_003",
+    "domain": "education",
+    "title": "PM SHRI Schools — Upgraded Government Schools",
+    "content": "PM SHRI (PM Schools for Rising India) is a centrally sponsored scheme to upgrade 14,500 government schools across India into model schools. Features: NEP 2020-aligned curriculum, digital labs, smart classrooms, activity-based learning, strong focus on foundational literacy and numeracy. Admission is free. Mid-Day Meal, free textbooks, and uniforms provided. To find a PM SHRI school near you, visit the Samagra Shiksha portal or contact your District Education Officer (DEO). These schools follow NCERT curriculum and have trained teachers under NISHTHA program.",
+    "tags": ["PM SHRI", "government school", "free education", "NEP 2020", "smart classroom", "NCERT"],
+    "language": "en",
+    "source": "Ministry of Education — PM SHRI Scheme 2024"
+  },
+  {
+    "id": "edu_004",
+    "domain": "education",
+    "title": "Skill India — Free Vocational Training Courses",
+    "content": "Skill India Mission (skillindia.gov.in) offers free and subsidized skill training for youth aged 15-45 years. Key programs: PMKVY (Pradhan Mantri Kaushal Vikas Yojana) — free short-term training in 300+ job roles, includes ₹500 monthly stipend during training. DDU-GKY (Deen Dayal Upadhyaya Grameen Kaushalya Yojana) — free training for rural youth with job placement guarantee. ITI (Industrial Training Institutes) — 1-2 year vocational diploma in trades like electrician, plumber, fitter, carpenter. NSDC (National Skill Development Corporation) — connects with private training partners. To register: visit the nearest PMKVY training center or call skill helpline 18008010522.",
+    "tags": ["Skill India", "PMKVY", "vocational training", "ITI", "job", "youth", "free course", "DDU-GKY"],
+    "language": "en",
+    "source": "Ministry of Skill Development — Skill India 2024"
+  },
+  {
+    "id": "edu_005",
+    "domain": "education",
+    "title": "NEET & JEE — Entrance Exam Basic Guide",
+    "content": "NEET (National Eligibility cum Entrance Test) is the exam for MBBS, BDS, and AYUSH admissions. Conducted by NTA (National Testing Agency). Eligibility: 10+2 with Physics, Chemistry, Biology/Biotechnology, minimum 50% marks (40% for SC/ST/OBC). NEET has 180 questions, 720 marks, 3-hour duration. JEE Main is for B.Tech/BE admissions to NITs, IIITs, and CFTIs. JEE Advanced is for IIT admissions — only top 2.5 lakh JEE Main qualifiers can appear. Free coaching available through: Samarth portal (NTA free mock tests), Swayam platform (free NPTEL courses), PM YASASVI scheme (coaching for OBC/EBC/DNT students). Exam calendars at nta.ac.in.",
+    "tags": ["NEET", "JEE", "NTA", "entrance exam", "engineering", "medical", "admission", "coaching"],
+    "language": "en",
+    "source": "NTA — NEET JEE Information Bulletin 2024"
+  },
+  {
+    "id": "edu_006",
+    "domain": "education",
+    "title": "DIKSHA & SWAYAM — Free Online Learning Platforms",
+    "content": "DIKSHA (Digital Infrastructure for Knowledge Sharing) at diksha.gov.in is a government e-learning platform with over 5 crore learning resources in 36 languages. Covers Class 1 to 12, teacher training, and vocational education. Works on low-bandwidth mobile connections. SWAYAM (swayam.gov.in) offers free university-level online courses (MOOCs) by top Indian universities and IITs. Courses in engineering, humanities, science, management. Certificates earned can be transferred as academic credits. Both platforms are free. DIKSHA is ideal for school students and their parents to revise lessons at home.",
+    "tags": ["DIKSHA", "SWAYAM", "e-learning", "online education", "MOOC", "free course", "digital learning"],
+    "language": "en",
+    "source": "Ministry of Education — Digital Learning Initiative 2024"
+  },
+  {
+    "id": "edu_007",
+    "domain": "education",
+    "title": "Dropout Prevention — Mid-Day Meal and RTE Act",
+    "content": "Right to Education (RTE) Act guarantees free and compulsory education for all children aged 6-14 years in India. No child can be denied admission to a government school due to lack of documents or inability to pay. 25% seats in private schools must be reserved for economically weaker sections (EWS) — free of cost. Mid-Day Meal Scheme provides free nutritious lunch at school, improving attendance especially for girls and children from poor families. If a school denies admission, contact the District Education Officer or file a complaint at rte.gov.in. ASER data shows dropouts reduce significantly when meals and uniforms are provided.",
+    "tags": ["RTE", "Right to Education", "mid-day meal", "dropout", "free school", "EWS", "private school"],
+    "language": "en",
+    "source": "Ministry of Education — RTE & Mid Day Meal 2024"
+  }
+]

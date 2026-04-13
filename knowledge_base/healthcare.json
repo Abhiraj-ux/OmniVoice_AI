@@ -1,0 +1,74 @@
+[
+  {
+    "id": "hc_001",
+    "domain": "healthcare",
+    "title": "Common Fever — Symptoms and First Aid",
+    "content": "Fever is when body temperature rises above 38°C (100.4°F). Common causes include viral infections like flu or cold, bacterial infections, and dengue. First aid: rest, drink plenty of water or ORS (Oral Rehydration Salt) solution, use a wet cloth on the forehead, take paracetamol (Crocin) as directed. Seek a doctor immediately if fever is above 103°F, lasts more than 3 days, is accompanied by severe headache, rash, or difficulty breathing.",
+    "tags": ["fever", "temperature", "flu", "paracetamol", "first aid", "symptoms"],
+    "language": "en",
+    "source": "Ministry of Health India — Common Illness Guidelines"
+  },
+  {
+    "id": "hc_002",
+    "domain": "healthcare",
+    "title": "Dengue Fever — Warning Signs",
+    "content": "Dengue is a mosquito-borne viral disease common in tropical regions. Symptoms include sudden high fever (104°F), severe headache, pain behind the eyes, joint and muscle pain, skin rash, and mild bleeding from gums or nose. Warning signs of severe dengue: severe abdominal pain, persistent vomiting, rapid breathing, bleeding gums, fatigue. There is no specific medicine — treatment is supportive. Drink plenty of fluids. If warning signs appear, go to the hospital immediately. Platelet count drops in dengue — regular blood tests are needed.",
+    "tags": ["dengue", "mosquito", "fever", "platelet", "rash", "emergency"],
+    "language": "en",
+    "source": "WHO Dengue Guidelines 2023"
+  },
+  {
+    "id": "hc_003",
+    "domain": "healthcare",
+    "title": "Maternal Health — Pregnancy Danger Signs",
+    "content": "Pregnant women should watch for danger signs that require immediate hospital visit: severe headache or blurred vision, swelling of hands and face, decreased fetal movement after 28 weeks, heavy vaginal bleeding, fever with chills, convulsions. Routine antenatal check-ups: at least 4 visits recommended — first trimester (before 12 weeks), second trimester (around 20 weeks), third trimester (28 weeks and 36 weeks). Free ANC (Antenatal Care) available at government health centers under Janani Suraksha Yojana (JSY).",
+    "tags": ["pregnancy", "maternal health", "antenatal", "JSY", "danger signs", "mother"],
+    "language": "en",
+    "source": "National Health Mission — Maternal Health Guidelines"
+  },
+  {
+    "id": "hc_004",
+    "domain": "healthcare",
+    "title": "Mental Health — Recognizing Depression and Anxiety",
+    "content": "Depression is more than sadness. Signs include: feeling hopeless for more than 2 weeks, loss of interest in daily activities, changes in sleep or appetite, difficulty concentrating, thoughts of self-harm. Anxiety signs: excessive worry, racing heart, trouble breathing, fear without clear reason. What to do: Talk to a trusted person. Contact iCall at 9152987821 (free, confidential, multilingual) or Vandrevala Foundation at 1860-2662-345 (24/7). Government hospitals have free psychiatry OPD. Seeking help is strength, not weakness.",
+    "tags": ["mental health", "depression", "anxiety", "iCall", "psychiatry", "stress", "helpline"],
+    "language": "en",
+    "source": "NIMHANS — Mental Health Awareness 2024"
+  },
+  {
+    "id": "hc_005",
+    "domain": "healthcare",
+    "title": "Diabetes — Management for Low-Resource Settings",
+    "content": "Type 2 diabetes affects millions. Key symptoms: frequent urination, excessive thirst, unexplained weight loss, blurry vision, slow-healing wounds. Management: take prescribed medicines regularly, never skip doses. Diet: reduce refined sugar, white rice, maida. Increase vegetables, dal, whole grains. Exercise 30 minutes daily — even walking counts. Monitor blood sugar: fasting should be below 100 mg/dL, post-meal below 140 mg/dL. Free diabetes medicines available at Jan Aushadhi Kendras and government hospitals. HbA1c test every 3 months recommended.",
+    "tags": ["diabetes", "blood sugar", "insulin", "diet", "exercise", "HbA1c", "Jan Aushadhi"],
+    "language": "en",
+    "source": "ICMR Diabetes Guidelines 2023"
+  },
+  {
+    "id": "hc_006",
+    "domain": "healthcare",
+    "title": "Ayushman Bharat — Free Hospital Treatment",
+    "content": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (PM-JAY) provides health cover of ₹5 lakh per family per year for secondary and tertiary hospitalization. Who is eligible: families listed in SECC (Socio-Economic Caste Census) 2011 database, construction workers, MGNREGA workers, Antyodaya card holders. How to check eligibility: SMS 'PMJAY' to 56167 or visit pmjay.gov.in or call 14555. Documents needed: Aadhaar card and ration card. Over 1500 medical packages covered. Available at empanelled government and private hospitals. No premium, no cash payment needed at hospital.",
+    "tags": ["Ayushman Bharat", "PM-JAY", "free treatment", "health insurance", "hospital", "government scheme"],
+    "language": "en",
+    "source": "NHA — PM-JAY Scheme Details 2024"
+  },
+  {
+    "id": "hc_007",
+    "domain": "healthcare",
+    "title": "Child Vaccination Schedule — India",
+    "content": "Key vaccines for children in India under Universal Immunization Programme (free at government health centers): At birth: BCG, OPV-0, Hepatitis B. 6 weeks: OPV-1, Pentavalent-1, Rotavirus-1, fIPV-1, PCV-1. 10 weeks: OPV-2, Pentavalent-2, Rotavirus-2. 14 weeks: OPV-3, Pentavalent-3, Rotavirus-3, fIPV-2, PCV-2. 9 months: Measles, Vitamin A. 16-24 months: Measles-Rubella, OPV Booster, DPT Booster-1, Vitamin A. 5 years: DPT Booster-2. Missed vaccinations can be given later — visit nearest ASHA worker or PHC. The Vaccination card (MCP Card) should be kept safely.",
+    "tags": ["vaccination", "immunization", "child health", "BCG", "polio", "pentavalent", "UIP"],
+    "language": "en",
+    "source": "Ministry of Health — UIP Schedule 2023"
+  },
+  {
+    "id": "hc_008",
+    "domain": "healthcare",
+    "title": "Nearest Hospital & Emergency Numbers",
+    "content": "National Emergency Number: 112 (Police, Ambulance, Fire — all-in-one). Ambulance only: 108 (free, 24/7 across most Indian states). Women helpline: 181. Child helpline: 1098. Poison Control: 1800-116-117. PM-JAY helpline: 14555. For nearest government hospital, visit the National Health Portal at nhp.gov.in or ask your local ASHA worker or Anganwadi. Jan Aushadhi (affordable medicine) store locator: 1800-180-8080.",
+    "tags": ["emergency", "ambulance", "108", "112", "hospital", "helpline", "poison control"],
+    "language": "en",
+    "source": "National Health Portal India 2024"
+  }
+]
