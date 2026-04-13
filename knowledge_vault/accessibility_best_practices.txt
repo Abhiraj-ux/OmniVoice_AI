@@ -1,7 +1,0 @@
-Digital Accessibility Best Practices (2026 Edition)
-
-1. ARIA Labels: Every interactive element should have a descriptive ARIA label for screen readers.
-2. Color Contrast: Text must have a 4.5:1 ratio against its background.
-3. Keyboard Navigation: A user should be able to navigate the entire app using only the 'Tab' and 'Enter' keys.
-4. Alt Text: Images must have alternative text descriptions to explain their visual context to blind users.
-5. Heading Hierarchy: Use only one H1 per page and maintain a logical order (H1 -> H2 -> H3).
