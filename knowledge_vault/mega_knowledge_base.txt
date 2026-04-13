@@ -1,3 +1,4 @@
+
 === DOMAIN: ACCESSIBLE HEALTHCARE ===
 H1: Healthcare Rights
 Fact: Every patient has a legal right to receive medical information in a format they can understand. This includes Braille, large print, or digital screen-reader-ready files.

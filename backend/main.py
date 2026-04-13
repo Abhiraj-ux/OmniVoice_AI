@@ -18,8 +18,7 @@ COLLECTION_NAME = os.getenv("DATABASE_COLLECTION", "accessibility_knowledge")
 
 # Shared Services
 app = FastAPI(title="OmniVoice AI Backend")
-embed_model = TextEmbedding()
-client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
+# qdrant_service is already imported and initialized with its own client and embed_model
 
 @app.get("/")
 def health_check():
@@ -43,35 +42,28 @@ async def vapi_webhook(request: Request):
         # 🟢 Tool 1: Multi-Domain Knowledge Base Search
         if func_name == "get_knowledge_base":
             query = params.get("query", "general help")
-            # We'll search across all available KB collections
-            collections = ["kb_healthcare", "kb_finance", "kb_agriculture", "kb_education", "kb_public_services", "accessibility_knowledge"]
+            # List of all domain collections plus the dynamic vault
+            collections = ["kb_healthcare", "kb_education", "kb_agriculture", "kb_finance", "kb_public_services", "accessibility_knowledge"]
             
             all_results = []
             for col in collections:
-                try:
-                    query_vector = list(embed_model.embed([query]))[0]
-                    # Note: We'll use the client directly for multi-collection flexibility
-                    results = client.search(
-                        collection_name=col,
-                        query_vector=query_vector.tolist(),
-                        limit=2
-                    )
-                    for r in results:
-                        all_results.append(f"[{col.upper()}]: {r.payload.get('content', r.payload.get('text', ''))}")
-                except Exception:
-                    continue # Skip if collection doesn't exist yet
+                results = qdrant_service.search_knowledge(query, collection_name=col, limit=2)
+                for r in results:
+                    source = r.payload.get('source', col.upper())
+                    content = r.payload.get('content', r.payload.get('text', 'No content'))
+                    all_results.append(f"[{source}]: {content}")
             
             context = "\n".join(all_results)
             return {
                 "results": [
                     {
                         "toolCallId": tool_call.get("id"),
-                        "result": f"Internal memory context: {context}"
+                        "result": f"Internal memory context: {context if all_results else 'No direct match in local memory. Use web_search for updated 2026 data.'}"
                     }
                 ]
             }
         
-        # 🔵 Tool 2: Web Search & Self-Learning
+        # 🔵 Tool 2: Web Search & Self-Learning (Updated to 2026 Today)
         if func_name == "web_search":
             query = params.get("query", "latest news")
             print(f"🌍 Researching via Global Web: {query}")
@@ -79,7 +71,7 @@ async def vapi_webhook(request: Request):
             search_results = []
             try:
                 with DDGS() as ddgs:
-                    results = list(ddgs.text(query, max_results=10))
+                    results = list(ddgs.text(query, max_results=12))
                     for r in results:
                         search_results.append({
                             "title": r['title'],
@@ -91,35 +83,28 @@ async def vapi_webhook(request: Request):
             
             search_context = "\n".join([f"{r['title']}: {r['description']}" for r in search_results])
 
-            # --- DYNAMIC SELF-LEARNING ---
-            try:
-                if search_context:
-                    content_to_save = f"Topic: {query}\nDetails: {search_context[:1000]}"
-                    vector = list(embed_model.embed([content_to_save]))[0]
-                    client.upsert(
-                        collection_name=COLLECTION_NAME,
-                        points=[
-                            models.PointStruct(
-                                id=str(uuid.uuid4()),
-                                vector=vector.tolist(),
-                                payload={
-                                    "content": content_to_save,
-                                    "source": f"Global Web Research: {query}",
-                                    "type": "learned_insight"
-                                }
-                            )
-                        ]
-                    )
-            except Exception: pass
+            # --- DYNAMIC SELF-LEARNING (Real-time Storage) ---
+            if search_results:
+                summary_to_store = f"Results for '{query}': {search_context[:1500]}"
+                qdrant_service.upsert_insight(topic=query, content=summary_to_store)
             
             return {
                 "results": [
                     {
                         "toolCallId": tool_call.get("id"),
-                        "result": f"Latest Web Research: {search_context[:2000]}"
+                        "result": f"Latest Web Research (Knowledge Status: Today, April 2026): {search_context[:3000]}"
                     }
                 ]
             }
+
+    # 🟣 Message Type 2: Session End & Learning
+    if message.get("type") == "end-of-call-report":
+        summary = message.get("summary", "No summary provided")
+        call_id = payload.get("call", {}).get("id", "unknown_call")
+        customer_number = payload.get("call", {}).get("customer", {}).get("number", "guest")
+        
+        print(f"🏁 Call Ended: {call_id}. Summarizing for user {customer_number}...")
+        qdrant_service.store_session_summary(user_id=customer_number, summary=summary)
 
     return {"status": "ok"}
 
