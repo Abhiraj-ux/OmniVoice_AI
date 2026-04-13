@@ -1,4 +1,4 @@
-# AccessVoice AI — Voice Agent for Accessibility & Societal Impact
+# OmniVoice AI — Voice Agent for Accessibility & Societal Impact
 
 > Built for Vapi + Qdrant | Multilingual | Low-Literacy Friendly | 5 Domains
 
