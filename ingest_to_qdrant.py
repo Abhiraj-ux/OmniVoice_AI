@@ -23,7 +23,6 @@ COLLECTION_MAP = {
     "public_services": "kb_public_services",
     "finance":         "kb_finance",
     "agriculture":     "kb_agriculture",
-    "personal_profile": "kb_developer_profile",
 }
 
 client  = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
